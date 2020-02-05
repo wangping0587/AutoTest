@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="reportDemo">
+    <test name="report">
+        <classes>
+            <class name="com.sfk.test.demo.TestDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.sfk.test.demo.ExtendTestNGIReportListener"/>
+    </listeners>
+</suite>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parameterTest">
+    <test name="parameter">
+        <classes>
+            <parameter name="name"  value="张三"/>
+            <parameter name="age"  value="20"/>
+            <class name="com.sfk.test.parameter.ParameterTest"/>
+        </classes>
+    </test>
+</suite>
